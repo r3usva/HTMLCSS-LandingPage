@@ -25,4 +25,16 @@ section {
 .flex-column {
     flex-direction: column;
 }
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
 /***************************************/
