@@ -79,13 +79,13 @@ section {
 }
 
 .header-nav {
-    border-bottom: 1px;
-    color: #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
 }
 
 .brand {
-    size: 170*85px;
-    margin-left: 15px;
+    width: 170px;
+    height: 85px;
+    margin-left: -15px;
     margin-right: 60px;
 }
 
@@ -95,16 +95,17 @@ section {
 }
 
 .search-box {
-    size: 330*30px;
+    width: 330px;
+    height: 30px;
     padding: 6px 12px;
-    border: 1px;
-    border-color: #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    size: 100*30px;
+    width: 100px;
+    height: 30px;
     border: 0px;
     padding: 0px;
 }
@@ -115,9 +116,10 @@ section {
     margin-top: 10px;
 }
 
-li.nav-list a.nav-list {
-    font: 16px uppercase;
-    font-weight: 700px;
+.nav-list li a  {
+    font: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
     letter-spacing: 0.2px;
 
 }
@@ -133,15 +135,16 @@ li.nav-list a.nav-list {
     font-size: 18px;
 }
 
-a.account {
+.account a {
     font-size: 14px;
 }
 
 .profile-pic {
-    size: 60*60px;
+    width: 60px;
+    height: 60px;
 }
 
-img.profile-pic {
+.profile-pic  img {
     border-radius: 100px;
     max-width: 100%;
 }
